@@ -1,0 +1,41 @@
+.center{
+  position:absolute; 
+  left:0; right:0;
+  top:0; bottom:0;
+  margin:auto;
+  height:200px;
+  width:800px;
+  text-align: center;
+  font-size:60px;
+}
+
+body{
+  font-family:'Alegreya Sans SC', Helvetica, Arial, sans-serif;
+  color:white;
+  background-color:#70cf32
+}
+
+.mailIcon{
+  vertical-align: middle;
+  float:right;
+  position:absolute;
+  bottom:20px;
+  right:20px;
+  
+}
+
+.mailIcon:hover{
+  color:#d9d9d9;
+  cursor: pointer;
+}
+
+.email{
+  position:absolute;
+  bottom:5px;
+  right:10px;
+}
+
+a{
+  color:white;
+  text-decoration: none
+}
